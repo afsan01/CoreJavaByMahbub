@@ -6,6 +6,9 @@ import java.io.IOException;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.text.PDFTextStripper;
 
+//import org.apache.pdfbox.pdmodel.PDDocument;
+//import org.apache.pdfbox.text.PDFTextStripper;
+
 public class ImportPDFFile {
 
 	public static void main(String[] args) throws IOException {

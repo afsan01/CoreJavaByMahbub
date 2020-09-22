@@ -3,7 +3,7 @@ package JavaBasic;
 public class B extends A {
 
 	public B() {
-		super(10, 20);// super keywork is used for called for parent class constructor.
+		super(10, 20);// super keywork is used to called for parent class constructor.
 		System.out.println("child class cons");
 	}
 

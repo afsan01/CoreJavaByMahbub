@@ -23,7 +23,7 @@ public class IncrementalAndDecremental {
 		System.out.println(n);
 		
 		int p = 2;
-		int q = --p;
+		int q = --p;//pre decrement
 		System.out.println(p);
 		System.out.println(q);
 

@@ -4,11 +4,11 @@ public class ArrayConcept {
 
 	public static void main(String[] args) {
 
-		//array concept is similar datatype values in a array variable.
-		//One dimentional array
+		//array concept is similar data type values in a array variable.
+		//One dimensional array
 		//dis-advantage of array:
 		//1.size is fixed--static array
-		//2. stores only similar data type---To overcome this problem we use Oblect array.
+		//2. stores only similar data type---To overcome this problem we use Object array.
 		
 		//1. int array:
 		int i[] = new int [4];
@@ -21,7 +21,7 @@ public class ArrayConcept {
 		System.out.println(i[3]);
 		System.out.println(i.length);
 
-		//all the value of the value of the array
+		//all the value of the array
 		for(int a=0; a<i.length; a++) {
 			System.out.println(i[a]);
 		}
@@ -51,7 +51,7 @@ public class ArrayConcept {
 		s[1] = "Hello";
 		s[2]= "World";
 		
-		System.out.println(s.length);
+		System.out.println(s[1]);
 		
 		//6.Object Array (Object Array
 		Object ob[] = new Object[6] ;

@@ -12,7 +12,7 @@ public class IfElseConcept {
 		else {
 			System.out.println("a is greater than b");
 		}
-		//compawison operator
+		//Comparison operator
 		//<, >, <=, >=, ==, !=
 		
 		int c= 40;

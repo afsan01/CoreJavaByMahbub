@@ -20,7 +20,7 @@ public class FunctionInJava {
 	}
 	
 	public int test1() {//no input, some output
-		System.out.println("test1 metod");
+		System.out.println("test1 method");
 		int a= 10;
 		int b =20;
 		int c = a+b;
@@ -39,9 +39,4 @@ public class FunctionInJava {
 		return d;
 	}
 
-	
-	
-	
-	
-	
 }

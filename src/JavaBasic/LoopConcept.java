@@ -17,7 +17,7 @@ public class LoopConcept {
 			System.out.println(j);
 		}
 		
-		//print 10 to 10
+		//print 10 to -10
 		for(int k = 10; k>=-10; k--) {
 			System.out.println(k);
 		}

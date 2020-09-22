@@ -5,9 +5,13 @@ public class TwoDimentionalArray {
 	public static void main(String[] args) {
 
 		String[][] x = new String[3][5];
+		int y [][] = new int [2][4];
 
 		System.out.println(x.length);// 3 total no of row
-		System.out.println(x[0].length);// total no of column
+		System.out.println(x[0].length);// 5 total no of column
+		System.out.println(y.length);// 2 total no of row
+		System.out.println(y[0].length);// 4 total no of column
+
 
 		x[0][0] = "A";
 		x[0][1] = "B";
