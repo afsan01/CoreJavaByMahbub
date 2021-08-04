@@ -21,11 +21,15 @@ public class CallByValueAndCallByRef {
 		
 	}
 	
-	public int testSum(int a, int b) {
+	/*public int testSum(int a, int b) {
 		a= 10;
 		b= 40;
 		int c= a+b;
 		return c;
+	}*/
+	public void testSum(int a, int b) {
+
+		System.out.println(a+b);
 	}
 	//call by reference
 	public void swap (CallByValueAndCallByRef t) {
@@ -33,6 +37,7 @@ public class CallByValueAndCallByRef {
 		temp=t.p;//temp=50
 		t.p = t.q; //p=60
 		t.q = temp; //q=50
+		//System.out.println(t.p+t.q);
 		
 	}
 

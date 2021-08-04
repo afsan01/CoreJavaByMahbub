@@ -13,4 +13,7 @@ public class Car extends Vehicle {
 	public void refuel() {
 		System.out.println("Car----refuel");
 	}
+	public static void brake() {
+		System.out.println("Car has brake");
+	}
 }

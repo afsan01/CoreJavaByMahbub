@@ -11,6 +11,7 @@ public class TestCar {
 		b.refuel();
 		b.theftsafety();
 		b.engine();
+		b.brake();
 		
 		System.out.println("***********");
 		
@@ -27,6 +28,10 @@ public class TestCar {
 		c1.start();
 		c1.stop();
 		c1.refuel();
+		c1.brake();
+		
+		//BMW b1 = (BMW) new Car();
+		
 		
 	}
 

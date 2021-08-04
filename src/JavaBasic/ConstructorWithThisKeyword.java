@@ -21,5 +21,10 @@ public class ConstructorWithThisKeyword {
 		ConstructorWithThisKeyword obj = new ConstructorWithThisKeyword("Tom", 30);
 
 	}
+	public void test(String name, int age) {
+		
+		this.name=name;
+		this.age= age;
+	}
 
 }

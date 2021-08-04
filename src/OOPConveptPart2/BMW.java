@@ -9,5 +9,8 @@ public class BMW extends Car { //"has-a relationship"
 	public void theftsafety() {
 		System.out.println("BMW---theftsafety");
 	}
+	public static void brake() {
+		System.out.println("BMW has brake");
+	}
 
 }
